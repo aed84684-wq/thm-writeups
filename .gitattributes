@@ -4,3 +4,8 @@
 *.sh  text eol=lf
 *.ps1 text eol=crlf
 *.png binary
+
+# 让仓库语言统计显示 Markdown（默认 .md 被当成文档不计入）
+*.md linguist-detectable=true
+docs/img/** linguist-documentation=true
+tools/** linguist-vendored=true
